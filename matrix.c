@@ -28,7 +28,6 @@ void multiplyMatrices(int rows1, int cols1, int matrix1[rows1][cols1],
                       int result[rows1][cols2]) {
     if (cols1 != rows2) {
         printf("Matrix multiplication is not possible.\n");
-        return;
     }
 
     for (int i = 0; i < rows1; i++) {
